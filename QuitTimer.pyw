@@ -8,7 +8,7 @@ class ElapsedTimeApp:
         self.cost_per_day = 75                            # Cost per day, edit this to your spending per day
         
         self.root = root
-        self.root.title("Fuck Kratom!")
+        self.root.title("Quit Timer")
         self.root.geometry("275x100")
         
         # Keeping the window always on top
