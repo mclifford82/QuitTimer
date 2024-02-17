@@ -4,8 +4,8 @@ from datetime import datetime
 class ElapsedTimeApp:
     def __init__(self, root):
         # Start date and time
-        self.start_datetime = datetime(2024, 1, 9, 9, 30)
-        self.cost_per_day = 75  # Cost per day
+        self.start_datetime = datetime(2024, 1, 9, 9, 30) # Edit this to your quit date. (Year, Month, Day, Hour, Minutes)
+        self.cost_per_day = 75                            # Cost per day, edit this to your spending per day
         
         self.root = root
         self.root.title("Fuck Kratom!")
